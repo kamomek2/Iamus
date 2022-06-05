@@ -5,7 +5,7 @@ ARG BRANCH=master
 
 RUN mkdir -p /usr/local/src \
     && cd /usr/local/src \
-    && git clone --depth 1 --branch ${BRANCH} https://github.com/vircadia/Iamus.git
+    && git clone https://github.com/kamomek2/Iamus.git
 
 RUN cd /usr/local/src/Iamus \
     && npm install
